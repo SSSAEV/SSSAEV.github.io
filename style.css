@@ -1,0 +1,35 @@
+/* Сброс */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; color: #333; }
+
+
+header { background: #000; color: #fff; }
+.main-nav ul { display: flex; list-style: none; justify-content: center; }
+.main-nav a { display: block; padding: 15px 20px; color: #fff; text-decoration: none; }
+.main-nav a:hover { background: #444; }
+
+
+.logo-search { display: flex; justify-content: space-between; padding: 20px; align-items: center; }
+.logo { font-size: 28px; }
+.logo span { color: orange; }
+
+
+.hero { max-width: 1000px; margin: 30px auto; background: #fff; padding: 20px; }
+.hero-main { width: 100%; height: auto; }
+.hero-text h2 { color: orange; margin: 10px 0; }
+
+
+.services-list { background: #552200; color: white; padding: 40px 20px; }
+.services-list h2 { text-align: center; margin-bottom: 20px; }
+.services-grid { display: flex; justify-content: space-around; }
+.service-item { width: 45%; }
+.service-item img { width: 100%; border-radius: 5px; margin-bottom: 10px; }
+.service-item ul li { margin-bottom: 5px; color: orange; }
+
+
+.bottom-blocks { display: flex; justify-content: space-around; padding: 40px 20px; background: #eee; }
+.bottom-blocks article { width: 30%; }
+.bottom-blocks h3 { margin-bottom: 10px; }
+
+
+footer { text-align: center; padding: 20px; background: #222; color: #fff; margin-top: 20px; }
